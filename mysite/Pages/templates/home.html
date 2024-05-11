@@ -1,106 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
 </head>
+
 <body>
-    <nav class="navbar">
-        <div class="container">
-          <div class="logo">
-            <a href="#">Company Logo</a>
-          </div>
-          <div class="search">
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
-          </div>
-          <div class="menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-          <div class="profile">
-            <a href="#">PP</a>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="#">Company Logo</a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <button type="submit">Search</button>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="profile">
+        <a href="#">PP</a>
+      </div>
+    </div>
+  </nav>
 </body>
-<style>
-    body {
-  margin: 0;
-  padding: 0;
-}
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
-}
-
-.menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.menu ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.menu ul li a:hover {
-  color: #ccc;
-}
-
-.search input[type="text"] {
-  padding: 5px;
-  width: 30vw;
-  border: none;
-  border-radius: 5px;
-  margin-right: 5px;
-}
-
-.search button {
-  background-color: #555;
-  color: #fff;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.search button:hover {
-  background-color: #777;
-}
-
-
-  </style>
 </html>
