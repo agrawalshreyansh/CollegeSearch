@@ -17,8 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Pages.views import *
+from Database.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home,name="home"),
+
+
+    # database url mapping
+    path('jcde',JossaCollegeDataEntry , name='JossaCollegeDataEntry'),
 ]

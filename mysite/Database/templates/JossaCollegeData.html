@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jossa College Data Entry</title>
+    <style>
+        .form{
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px  ;
+            column-gap: 30px;
+            row-gap: 30px;
+            margin: 30px 30px;
+        }
+        .form > *{
+            margin: 10px 10px;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jossa College Data Entry Form</h1>
+    <form action="JossaCollegeDataEntry" method="post" class="form">
+        <label for="" class="formlabel">College ID</label>
+        <input type="text" name="CollegeID" class="textinput">
+        
+        <label for="" class="formlabel">College Name</label>
+        <input type="text" name="CollegeName" class="textinput">
+        
+        <label for="" class="formlabel">College Description</label>
+        <input type="text" name="CollegeDescription" class="textinput">
+        
+        <label for="" class="formlabel">Opening Rank</label>
+        <input type="text" name="OpeningRank" class="textinput">
+        
+        <label for="" class="formlabel">Closing Rank</label>
+        <input type="text" name="ClosingRank" class="textinput">
+        
+        <label for="" class="formlabel">Heighest Package</label>
+        <input type="text" name="HeighestPackage" class="textinput">
+        
+        <label for="" class="formlabel">Average Package</label>
+        <input type="text" name="AveragePackage" class="textinput">
+        
+        <label for="" class="formlabel">Median Package</label>
+        <input type="text" name="MedianPackage" class="textinput">
+        
+        <label for="" class="formlabel">Campus File</label>
+        <input type="text" name="CampusFile1" class="textinput">
+        
+        <label for="" class="formlabel">Campus File</label>
+        <input type="text" name="CampusFile2" class="textinput">
+        
+        <label for="" class="formlabel">Campus File</label>
+        <input type="text" name="CampusFile3" class="textinput">
+        
+        <label for="" class="formlabel">College Website</label>
+        <input type="text" name="CollegeWebsite" class="textinput">
+
+        <label for="" class="formlabel">Nirf Rank</label>
+        <input type="text" name="NirfRank" class="textinput">
+
+        <label for="" class="formlabel">Total Student Sat</label>
+        <input type="text" name="TotalSat" class="textinput">
+
+        <label for="" class="formlabel">Total Student</label>
+        <input type="text" name="TotalStudent" class="textinput">
+
+        <label for="" class="formlabel">Total Student Placed</label>
+        <input type="text" name="TotalPlaced" class="textinput">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
